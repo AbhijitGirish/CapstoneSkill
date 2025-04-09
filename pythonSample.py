@@ -20,8 +20,15 @@ recipes = {
     }
 }
 
-# Branch: new-recipe - Added a new recipe and merged into main
-recipes["Spaghetti Bolognese"] = {
-    "ingredients": ["200g spaghetti", "100g ground beef", "1 onion", "2 cloves garlic", "1 can tomatoes", "Salt", "Pepper"],
-    "instructions": "Cook spaghetti. In another pan, sauté onion and garlic, add beef and cook. Add tomatoes and simmer. Combine with spaghetti."
-}
+# Simulated Merge Conflict:
+# In 'main' branch: Modified Pancake recipe to use 1.75 cups of milk
+# In 'feature/pancake-update' branch: Modified Pancake recipe to use 1 cup of milk and added vanilla
+# Conflict was resolved by deciding to use 1.5 cups milk and add vanilla
+
+recipes["Pancakes"]["ingredients"] = [
+    "2 cups flour", "2 eggs", "1.5 cups milk", "1 tbsp sugar", 
+    "1 tsp salt", "1 tbsp baking powder", "1 tsp vanilla"
+]
+
+
+
