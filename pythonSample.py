@@ -21,10 +21,6 @@ recipes = {
 }
 
 # Simulated Merge Conflict:
-# In 'main' branch: Modified Pancake recipe to use 1.75 cups of milk
-# In 'feature/pancake-update' branch: Modified Pancake recipe to use 1 cup of milk and added vanilla
-# Conflict was resolved by deciding to use 1.5 cups milk and add vanilla
-
 recipes["Pancakes"]["ingredients"] = [
     "2 cups flour", "2 eggs", "1.5 cups milk", "1 tbsp sugar", 
     "1 tsp salt", "1 tbsp baking powder", "1 tsp vanilla"
