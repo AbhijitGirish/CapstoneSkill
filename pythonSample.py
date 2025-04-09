@@ -19,3 +19,9 @@ recipes = {
         "instructions": "Butter the bread. Place cheese between slices. Grill until golden brown on both sides."
     }
 }
+
+# Branch: new-recipe - Added a new recipe and merged into main
+recipes["Spaghetti Bolognese"] = {
+    "ingredients": ["200g spaghetti", "100g ground beef", "1 onion", "2 cloves garlic", "1 can tomatoes", "Salt", "Pepper"],
+    "instructions": "Cook spaghetti. In another pan, sauté onion and garlic, add beef and cook. Add tomatoes and simmer. Combine with spaghetti."
+}
